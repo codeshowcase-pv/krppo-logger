@@ -1,5 +1,5 @@
 FROM nginx
 
-ADD docker/conf/vhost.conf /etc/nginx/cond.d/default.conf
+ADD docker/conf/vhost.conf /etc/nginx/conf.d/default.conf
 
 WORKDIR /var/www/krppo-logger
